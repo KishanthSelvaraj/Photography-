@@ -65,7 +65,7 @@ const FAQ = () => {
                     index: 1,
                   },
                   {
-                    question: " Do you work both night and day shifts?",
+                    question: "Do you work both night and day shifts?",
                     answer:
                       "Yes, our support team is available 24/7 to assist you with any queries or issues you may have.",
                     index: 2,
