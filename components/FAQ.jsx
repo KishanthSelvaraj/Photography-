@@ -51,7 +51,7 @@ const FAQ = () => {
                   Frequently Asked Questions
                 </h2>
                 <p className="mb-12 text-gray-600 font-medium leading-relaxed">
-                  Got questions? We've got answers. Check out our frequently
+                  Got questions? We have got answers. Check out our frequently
                   asked questions below.
                 </p>
               </div>
