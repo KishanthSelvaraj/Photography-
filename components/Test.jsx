@@ -34,7 +34,7 @@ const Test = () => {
       <div class="flex flex-col space-y-4 md:space-y-0 md:flex-row md:space-x-4 relative">
         <div class="bg-[#e0faf3] animated rounded-lg p-8 text-center md:w-1/3">
           <p class="font-bold uppercase">Priyanka S</p>
-          <p class="text-xl font-light italic text-gray-700">The best decision we made was hiring this photography service. The photoshoot was fun and relaxed, and the final images are simply breathtaking. We can't stop looking at our photos!</p>
+          <p class="text-xl font-light italic text-gray-700">The best decision we made was hiring this photography service. The photoshoot was fun and relaxed, and the final images are simply breathtaking. We cant stop looking at our photos!</p>
           <div class="flex items-center justify-center space-x-2 mt-4">
             <svg class="text-yellow-500 w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
               fill="currentColor" stroke="currentColor">

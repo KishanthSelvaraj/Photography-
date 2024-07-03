@@ -51,7 +51,7 @@ const FAQ = () => {
                   Frequently Asked Questions
                 </h2>
                 <p className="mb-12 text-gray-600 font-medium leading-relaxed">
-                  Got questions? We've got answers. Check out our frequently
+                  Got questions? We have got answers. Check out our frequently
                   asked questions below.
                 </p>
               </div>
@@ -61,7 +61,7 @@ const FAQ = () => {
                   {
                     question: "How can I contact you?",
                     answer:
-                      "You can contact us via email at support@photographywebsite.com or call us at (123) 456-7890. We are also available on social media platforms like Facebook and Instagram.",
+                      "You can contact us via email at akphotographypollachi.in or call us at +91 77083 18804 We are also available on social media platforms like Facebook and Instagram.",
                     index: 1,
                   },
                   {

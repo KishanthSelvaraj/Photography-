@@ -28,10 +28,13 @@ const Contact = () => {
     });
   }, []);
   return (
-    <section className="mb-32 animated">
-      <div id="map" className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat">
+    <section className="mb-16 animated">
+      <div
+        id="map"
+        className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"
+      >
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.84293706361!2d77.00187337508713!3d10.669296689473057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8382eccf8a371%3A0xd6cf3d50ffe42212!2sPollachi%20Chamber%20of%20Commerce%20%26%20Industry!5e0!3m2!1sen!2sin!4v1720001672085!5m2!1sen!2sin"
           width="100%"
           height="480"
           style={{ border: 0 }}
@@ -89,7 +92,10 @@ const Contact = () => {
                     type="checkbox"
                     id="copyCheckbox"
                   />
-                  <label className="inline-block pl-[0.15rem] hover:cursor-pointer" htmlFor="copyCheckbox">
+                  <label
+                    className="inline-block pl-[0.15rem] hover:cursor-pointer"
+                    htmlFor="copyCheckbox"
+                  >
                     Send me a copy of this message
                   </label>
                 </div>
@@ -125,7 +131,9 @@ const Contact = () => {
                     </div>
                     <div className="ml-6 grow">
                       <p className="mb-2 font-bold">Email</p>
-                      <p className="text-sm text-neutral-500">furniture.nooks@gmail.com</p>
+                      <p className="text-sm text-neutral-500">
+                        akphotographypollachi.in
+                      </p>
                       {/* <p className="text-sm text-neutral-500">1-600-890-4567</p> */}
                     </div>
                   </div>
@@ -152,7 +160,10 @@ const Contact = () => {
                     </div>
                     <div className="ml-6 grow">
                       <p className="mb-2 font-bold">Addresss</p>
-                      <p className="text-sm text-neutral-500">70/8, LGB Nagar, Athipalayam Road, Chinnavedampatti, Coimbatore - 641035</p>
+                      <p className="text-sm text-neutral-500">
+                        Janakiammal Complex Near Police Check Point First Floor
+                        N.M Sungam, Pollachi 642007
+                      </p>
                       {/* <p className="text-sm text-neutral-500">1-800-123-4567</p> */}
                     </div>
                   </div>
@@ -179,9 +190,10 @@ const Contact = () => {
                     </div>
                     <div className="ml-6 grow">
                       <p className="mb-2 font-bold">Phone</p>
-                      <p className="text-sm text-neutral-500">+ 91 94421 19121
-                     </p>
-                      <p className="text-sm text-neutral-500"> + 91 94421 15121</p>
+                      <p className="text-sm text-neutral-500">
+                        + 91 77083 18804
+                      </p>
+                      {/* <p className="text-sm text-neutral-500"> + 91 94421 15121</p> */}
                     </div>
                   </div>
                 </div>
