@@ -55,7 +55,7 @@ sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight ">
               Capture moments, Create memories.
             </p>
             <h1 class=" animated max-w-2xl mx-auto px-6 text-lg text-black font-inter">
-          Capture moments, create memories encapsulates the essence of photography, preserving life's fleeting beauty for eternity.
+          Capture moments, create memories encapsulates the essence of photography, preserving life fleeting beauty for eternity.
             </h1>
             <div class="px-8 sm:items-start sm:justify-center sm:px-0 sm:space-x-5 sm:flex mt-9">
                 <a href="#" title=""
