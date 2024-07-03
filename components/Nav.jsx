@@ -88,7 +88,7 @@ const NavBar = () => {
           </ul>
         </div>
 
-        <div className="flex items-center gap-3 mr-5">
+        <div className="flex items-center gap-3 ">
           <div className="menu md:hidden">
             <button
               onClick={toggleSidebar}
