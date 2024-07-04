@@ -28,7 +28,7 @@ const Contact = () => {
     });
   }, []);
   return (
-    <section className="mb-16 animated">
+    <section className="mb-16 animated" id="Contact">
       <div
         id="map"
         className="relative h-[300px] overflow-hidden bg-cover bg-[50%] bg-no-repeat"

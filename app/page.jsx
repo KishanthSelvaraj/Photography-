@@ -1,5 +1,6 @@
 import Contact from "@/components/Contact";
 import FAQ from "@/components/FAQ";
+import Gal2 from "@/components/Gal2";
 import Gallary from "@/components/Gallary";
 import Hero from "@/components/Hero";
 import List from "@/components/List";
@@ -17,6 +18,7 @@ export default function Home() {
       <Gallary />
       <Stats />
       <FAQ />
+      {/* <Gal2/> */}
       <Test />
       <Contact />
     </div>

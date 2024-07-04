@@ -28,7 +28,7 @@ const Hero = () => {
     });
   }, []);
   return (
-       <section class=" bg-white relative overflow-hidden bg-gradient-to-b from-blue-50 via-transparent to-transparent  pt-20  sm:pt-32 xl:pt-40">
+       <section class=" bg-white relative overflow-hidden bg-gradient-to-b from-blue-50 via-transparent to-transparent  pt-20  sm:pt-32 xl:pt-40" id='Home'>
          <div class="relative z-10">
         <div
             class="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">

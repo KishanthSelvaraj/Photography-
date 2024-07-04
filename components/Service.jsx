@@ -32,7 +32,7 @@ const Service = () => {
         });
       }, []);
   return (
-    <div  class="bg-white my-5 md:my-10 lg:my-10">
+    <div  class="bg-white my-5 md:my-10 lg:my-10" id="Services">
     <div class="container mx-auto px-4 md:px-20 lg:px-30 xl:px-30 py-10 md:pb-20 md:pt-5 lg:pb-20 lg:pt-5 xl:pb-20 xl:pt-5 xxl:pb-20 xxl:pt-5">
         <h3 class="text-black text-center text-4xl font-bold tracking-tight my-4 ">
            Our Services

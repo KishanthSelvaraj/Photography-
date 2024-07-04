@@ -48,7 +48,7 @@ const NavBar = () => {
   return (
     <div>
       {/* Desktop Navigation    bg-transparent */}
-      <div className="flex bg-white navbar w-full py-2 justify-between items-center z-50 lg:px-16 md:px-10 px-10">
+      <div className="flex bg-white navbar w-full py-2 justify-between items-center z-50 lg:px-16 md:px-10 px-10  fixed top-0 start-0">
         <div className="md:w-32  w-24 h-auto mx-10  ">
           <a
             href="#"
@@ -71,24 +71,24 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="#ourservices" className="hover:text-[#34b69c]">
+              <Link href="#Services" className="hover:text-[#34b69c]">
                 Services
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/office" className="hover:text-[#34b69c]">
+              <Link href="#Gallery" className="hover:text-[#34b69c]">
                 Gallery
               </Link>
             </li>
             <li className="cursor-pointer">
-              <Link href="/contact" className="hover:text-[#34b69c]">
+              <Link href="#Contact" className="hover:text-[#34b69c]">
                 Contact
               </Link>
             </li>
           </ul>
         </div>
 
-        <div className="flex items-center gap-3 mr-5">
+        <div className="flex items-center gap-3 ">
           <div className="menu md:hidden">
             <button
               onClick={toggleSidebar}
