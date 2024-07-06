@@ -125,19 +125,19 @@ const NavBar = () => {
             className="cursor-pointer  pb-2  px-2 font-medium"
             onClick={toggleSidebar}
           >
-            <Link href="/about">About Us</Link>
+            <Link href="#Services">Services</Link>
           </li>
           <li
             className="cursor-pointer  pb-2  px-2 font-medium"
             onClick={toggleSidebar}
           >
-            <Link href="/products">Product</Link>
+            <Link href="#Gallery">Gallery</Link>
           </li>
           <li
             className="cursor-pointer  pb-2  px-2 font-medium"
             onClick={toggleSidebar}
           >
-            <Link href="/contact">Contact</Link>
+            <Link href="#Contact">Contact</Link>
           </li>
         </ul>
       </div>
